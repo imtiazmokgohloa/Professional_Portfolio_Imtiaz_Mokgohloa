@@ -138,7 +138,42 @@ a:hover {
   text-align: center;
   padding: 40px;
 }
-.skills-list {
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Icon styling */
+.skills i {
+  font-size: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Brand colors */
+.java { color: #007396; }           /* Java blue */
+.javascript { color: #F7DF1E; }     /* JS yellow */
+.vbnet { color: #68217A; }          /* VB.Net purple */
+.sql { color: #00758F; }            /* SQL Server teal */
+.office { color: #D83B01; }         /* Microsoft Office orange */
+.powerbi { color: #F2C811; }        /* Power BI yellow */
+.cisco { color: #1BA0D7; }          /* Cisco blue */
+.sage { color: #009639; }           /* Sage green */
+
+/* Hover effect */
+.skills i:hover {
+  outline: 3px solid red;
+  outline-offset: 5px;
+  transform: scale(1.2);
+}
+
+/*
+<.skills-list {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
@@ -216,4 +251,5 @@ animated-title {
       30%, 70% {opacity: 1; transform: translateY(0);}
       80%, 100% {opacity: 0; transform: translateY(-100%);}
     }
+
 
