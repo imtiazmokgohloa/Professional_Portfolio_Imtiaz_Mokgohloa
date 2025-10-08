@@ -143,7 +143,9 @@ a:hover {
       flex-wrap: wrap;
       gap: 12px;
     }
-    .skill {
+    .skill i {
+    font-size: 40px;
+    margin: 10px;
       background: #ffdd57;
       color: #1e3c72;
       padding: 8px 16px;
@@ -214,3 +216,4 @@ animated-title {
       30%, 70% {opacity: 1; transform: translateY(0);}
       80%, 100% {opacity: 0; transform: translateY(-100%);}
     }
+
