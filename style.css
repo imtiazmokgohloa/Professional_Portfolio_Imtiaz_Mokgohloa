@@ -164,6 +164,7 @@ a:hover {
 .powerbi { color: #F2C811; }        /* Power BI yellow */
 .cisco { color: #1BA0D7; }          /* Cisco blue */
 .sage { color: #009639; }           /* Sage green */
+.cloud { color: #F2C811; }
 
 /* Hover effect */
 .skills i:hover {
@@ -251,6 +252,7 @@ animated-title {
       30%, 70% {opacity: 1; transform: translateY(0);}
       80%, 100% {opacity: 0; transform: translateY(-100%);}
     }
+
 
 
 
