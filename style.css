@@ -138,7 +138,7 @@ a:hover {
   text-align: center;
   padding: 40px;
 }
-.skills-list {
+.skills {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -251,6 +251,7 @@ animated-title {
       30%, 70% {opacity: 1; transform: translateY(0);}
       80%, 100% {opacity: 0; transform: translateY(-100%);}
     }
+
 
 
 
